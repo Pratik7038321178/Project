@@ -10,14 +10,14 @@ class PrisonerEscape {
         System.out.println("Welcome to the Text Adventure Game!");
         System.out.println("You find yourself in a prison. You have two paths ahead.");
 
-        // Offer choices to the player
+        
         System.out.println("1. Take the left path.");
         System.out.println("2. Take the right path.");
 
-        // Get player input
+        
         int choice = getPlayerChoice();
 
-        // Process the player's choice
+        
         if (choice == 1) {
             leftPath();
         } else if (choice == 2) {
